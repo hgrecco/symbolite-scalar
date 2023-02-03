@@ -1,5 +1,5 @@
 """
-    symbolite.impl.test_scalar.sympy
+    symbolite.scalar.sympy
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     Translate symbolite.lib into values and functions
@@ -12,8 +12,9 @@
 import operator
 
 import sympy as sy
-from symbolite.core.mappers import Unsupported
 from sympy.abc import x, y
+
+from symbolite.core.mappers import Unsupported
 
 abs = sy.Abs
 acos = sy.acos

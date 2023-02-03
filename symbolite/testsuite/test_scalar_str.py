@@ -1,9 +1,9 @@
 import collections
 
 import pytest
+
 from symbolite.core.mappers import AsStr, ToNameMapper
 from symbolite.core.translators import as_string
-
 from symbolite.scalar import abstract as scalar
 
 x, y, z = map(scalar.Scalar, "x y z".split())

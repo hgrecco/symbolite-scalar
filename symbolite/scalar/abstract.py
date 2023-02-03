@@ -1,5 +1,5 @@
 """
-    symbolite.abstract.test_scalar
+    symbolite.scalar.abstract
     ~~~~~~~~~~~~~~~~~~~~~~~~~
 
     Function and values for test_scalar operations.
@@ -92,7 +92,6 @@ def __dir__():
 
 @functools.lru_cache(maxsize=None)
 def __getattr__(name):
-
     if name not in __all__:
         raise AttributeError(f"module {__name__} has no attribute {name}")
 

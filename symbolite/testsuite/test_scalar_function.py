@@ -1,8 +1,8 @@
 import inspect
 
 import pytest
-from symbolite.core.translators import as_function, get_lib_implementation
 
+from symbolite.core.translators import as_function, get_lib_implementation
 from symbolite.scalar import abstract as scalar
 
 all_impl = get_lib_implementation("scalar")

@@ -1,5 +1,5 @@
 """
-    symbolite.impl.test_scalar.numpy
+    symbolite.scalar.numpy
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     Translate symbolite.lib into values and functions
@@ -12,6 +12,7 @@
 import operator
 
 import numpy as np
+
 from symbolite.core.mappers import Unsupported
 
 abs = np.abs

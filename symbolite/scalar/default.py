@@ -1,5 +1,5 @@
 """
-    symbolite.impl.test_scalar.default
+    symbolite.scalar.default
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     Translate symbolite.lib into values and functions

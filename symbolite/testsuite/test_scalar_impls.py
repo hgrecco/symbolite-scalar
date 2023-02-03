@@ -1,9 +1,9 @@
 import math as pymath
 
 import pytest
+
 from symbolite.core.mappers import Unsupported
 from symbolite.core.translators import get_lib_implementation
-
 from symbolite.scalar import abstract as scalar
 
 all_impl = get_lib_implementation("scalar")
